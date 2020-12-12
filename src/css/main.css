@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+#q4Wrapper {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-bottom: 80px;
+}
+#q4Wrapper h1, #q4Wrapper h3 {
+  margin: 0;
+}
+#q4Wrapper h1 {
+  font-size: 48px;
+}
+#q4Wrapper h3 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
+}
+#q4Wrapper header {
+  padding: 20px;
+}
+#q4Wrapper footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#q4Wrapper article {
+  text-align: center;
+}
+#q4Wrapper article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+#q4Wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+#q4Wrapper a:hover {
+  transform: scale(1.05);
+}
+#q4Wrapper a span {
+  opacity: 0.5;
+}
+
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Begin styling the report items here! */
+
+h2 {
+  font-size: 36px;
+}
+
+.hide {
+  display: none;
+}
+
+.reports {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.reports_item {
+  width: calc(50% - 30px);
+  margin-right: 30px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.divider {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+@media all and (min-width: 769px) {
+  .reports_item {
+    width: calc(33.33333% - 30px);
+  }
+} 
+
+/* Reports in list format */
+
+.list {
+  display: block;
+}
+
+.list .reports_item {
+  width: calc(100% - 30px);
+}
+
+.list article {
+  display: flex;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.list figure {
+  width: 80px;
+}
+
+#q4Wrapper .list article footer {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  padding: 16px;  
+}
+
+#q4Wrapper .list article footer a {
+  margin-right: 40px;
+  flex: 1;
+}
+
+.button {
+  width: 100%;
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #22272B;
+  border: 0;
+  color: #FFF;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
