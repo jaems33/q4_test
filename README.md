@@ -1,4 +1,4 @@
-# Q4 Inc. Front End Developer Test by James Teow
+# Q4 Inc. Front End Developer Test
 
 ## Specific Notes
 

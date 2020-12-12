@@ -66,10 +66,6 @@ h2 {
   font-size: 36px;
 }
 
-.hide {
-  display: none;
-}
-
 .reports {
   display: flex;
   flex-wrap: wrap;
@@ -142,4 +138,6 @@ h2 {
   cursor: pointer;
 }
 
-
+.hide {
+  display: none;
+}
