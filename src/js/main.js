@@ -67,7 +67,6 @@ const reportsWidget = {
                 $(layout).append('<h2 class="divider">' + begin + 's</h2><div class="' + selectorClass + '"></div>');
                 target = $(selector).last();
             }
-            console.log(entry);
             $(target).append(Mustache.render(template, entry));
         });
     },
