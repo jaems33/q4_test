@@ -49,7 +49,6 @@
 #q4Wrapper a span {
   opacity: 0.5;
 }
-
 .layout_inner {
   max-width: 960px;
   margin: 0 auto;
@@ -59,7 +58,9 @@
   margin-bottom: 30px;
   text-align: center;
 }
-
+.layout_container {
+  overflow: hidden; 
+}
 /* Begin styling the report items here! */
 
 h2 {
