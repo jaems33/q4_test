@@ -11,6 +11,7 @@ And modify `mode` in `reportsWidget.init(data: Object, mode: String)` to see the
 ### `mode` can be:
 
 `null`: Uses the standard layout shown in the test screenshot provided by Q4.
+
 `'byDecade'`: Provides headers seperating previous decades from the current decade. This doesn't make the page shorter or reduce load time, but it does allow for better scannability.
 ![alt text](demo_images/byDecade.png "Reports grouped by decade")
 `'byRecency'`: Shows the first six annual reports in a grid, and then groups the remaining reports in a list format to save screen real estate.
