@@ -13,7 +13,9 @@ And modify `mode` in `reportsWidget.init(data: Object, mode: String)` to see the
 Mode can be:
 - `null`: Uses the standard layout shown in the test screenshot provided by Q4.
 - `'byDecade'`: Provides headers seperating previous decades from the current decade. This doesn't make the page shorter, but it does allow for better scannability when users are scrolling. Is dependent on data providing year and in a sorted format.
+![alt text](demo_images/byDecade.png "Reports grouped by decade")
 - `'byRecency'`: Will show the first six annual reports in a grid, showing the remaining reports in a list format to save on visual space.
+![alt text](demo_images/byRecency.png "Reports separated by most recent")
 - `'byShowMore'`: Will show a Show More button that reveals more annual reports upon clicking.
-
+![alt text](demo_images/byShowMore.png "Reports hidden beneath show more")
 In all of these cases, the goal was to provide an alternative that still kept to the spirit of the exercise which was to present the annual reports in a grid format.
